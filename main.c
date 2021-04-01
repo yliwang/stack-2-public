@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-#include "list.h"
+#include "stack.h"
 
 void main()
 {
 	/* */
-	struct list *l;
-	l = create_list();
+	struct stack *s;
+	s = create_stack();
 
   /* other test code */
 
-	free(l);
+	free(s);
 }
