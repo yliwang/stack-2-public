@@ -9,8 +9,8 @@
 
 struct stack *init_stack(struct stack *t)
 {
-	t->count = 0;
-
+	init_list( &t->sll );
+	
 	return t;
 }
 
