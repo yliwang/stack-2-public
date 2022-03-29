@@ -11,6 +11,8 @@ struct stack
 struct stack *init_stack(struct stack *t);
 struct stack *create_stack();
 
+void uninit_stack( struct stack * t );
+
 struct stack *push(struct stack *t, T e);
 
 T pop(struct stack *t);
