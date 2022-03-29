@@ -5,8 +5,7 @@
 
 struct stack
 {
-	T store[MAX_ELE];
-	int count;
+	struct singly_linked_list sll;
 };
 
 struct stack *init_stack(struct stack *t);
