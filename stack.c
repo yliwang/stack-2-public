@@ -23,3 +23,7 @@ struct stack *create_stack()
 	return init_stack(t);
 }
 
+void uninit_stack( struct stack *t )
+{
+    free_list( &t->sll );
+}
